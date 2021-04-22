@@ -111,7 +111,7 @@ class Dino:
             self.road[1] = self.DINO_IMG
 
             #Handling dinosaur's movement with keyboard.
-            if keyboard.is_pressed('up') or keyboard.is_pressed('space'):
+            if is_pressed('up') or is_pressed('space'):
                 self.jump_handler()
             else:
                 self.screen_display()
